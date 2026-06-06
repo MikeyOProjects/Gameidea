@@ -33,7 +33,7 @@ elif x == "elixir":
 elif x == "bandage":    
     current_health += bandage
     if current_health > max_health:
-        current_health = maxHealth
+        current_health = max_health
     print(f"You used a bandage and healed {bandage} health points. Your current health is {current_health}.")
 else:
     print("Invalid item. You cannot heal yourself.")
